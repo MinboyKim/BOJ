@@ -1,0 +1,7 @@
+*
+!*.*
+!*/
+!CODEOWNERS
+.vscode/
+*.dSYM
+*.DS_Store
