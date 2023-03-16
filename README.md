@@ -17,11 +17,11 @@
 ## 17465번 - 동적 연결성과 쿼리
 ## https://www.acmicpc.net/problem/17465
 
-# KangManjoo
+# ABC
 ## 17963번 - 트리와 쿼리 13
 ## https://www.acmicpc.net/problem/17936
 
-# Kwan
+# DEF
 ## 18237번 - 행렬 곱셈 순서 3
 ## https://www.acmicpc.net/problem/18237
 ```
