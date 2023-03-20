@@ -11,6 +11,7 @@ int main(void) {
 
   cin >> N >> C;
   for (int i = 0; i < N; i++) cin >> Arr[i];
+
   for (int i = 1; i <= C; i++) {
     for (int j = 0; j < N; j++) {
       if (i % Arr[j] == 0) {
