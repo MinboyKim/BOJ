@@ -35,6 +35,7 @@ git commit -m "김동민 3/19 GOLD4_1043"
 ---
 ### 참여자 목록
 * Minboy 🐧
+* KangManJoo 🐈
 ---
 
 ### Notion 📔
