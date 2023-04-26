@@ -75,7 +75,8 @@ int main(){
     ll val;
     for(int i=1; i<=n; i++) cin>>arr[i];
     initSegTree(1,1,n);
-    int query=m+k,q,a,b,sumI;
+    int query=m+k,q,a,b;
+    ll sumI;
     while(query--){
         cin>>q>>a>>b;
         if(q==1){
