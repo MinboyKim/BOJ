@@ -70,6 +70,7 @@ ll findIdx(int x){
 }
 
 int main(){
+    cin.tie(nullptr)->ios::sync_with_stdio(false);
     cin>>n;
     ll val;
     for(int i=1; i<=n; i++){
