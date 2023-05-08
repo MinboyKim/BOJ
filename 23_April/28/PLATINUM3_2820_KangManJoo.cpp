@@ -4,6 +4,12 @@
 using namespace std;
 
 typedef long long ll;
+typedef pair<int,int> pii;
+
+typedef struct segTree{
+    int pay;
+    pii range;
+}segTree;
 
 int n,m,q,a,b,x;
 ll lazy[MAX];
@@ -25,6 +31,9 @@ int dfsSegTree(int cur,int inputN){
 
 
 
+void initSegTree(int node,int l,int r,int pay){
+    if(node==1)
+}
 
 
 

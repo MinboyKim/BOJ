@@ -23,8 +23,8 @@ void solve(){
         }
     }
     if(i!=0) plag=0;
-    if(plag) cout<<"YES";
-    else cout<<"NO";
+    if(plag) cout<<"YES"<<'\n';
+    else cout<<"NO"<<'\n';
 }
 
 int main(){
