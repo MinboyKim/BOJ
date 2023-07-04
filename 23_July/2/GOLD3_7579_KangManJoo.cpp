@@ -46,10 +46,18 @@ int main()
             {
                 board[i][j] = board[i - 1][j];
             }
+
+            // if (board[i][j] >= tByte)
+            // {
+            //     if (j < minCost)
+            //         minCost = j;
+            // }
         }
     }
 
-     for (int i = 0; i <= 10101; i++)
+    // cout << minCost;
+
+    for (int i = 0; i <= 10101; i++)
 	{
 		if (board[n-1][i] >= tByte)
 		{
