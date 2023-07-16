@@ -110,8 +110,8 @@ int main() {
     tail = snake.back();
     snake.pop_back();
     snake.push_front(next);
-    board[tail.first][tail.second] = 0;
     if (board[NX][NY] == 0) {
+      board[tail.first][tail.second] = 0;
       board[NX][NY] = 1;
     } else if (board[NX][NY] == 1) {
       cout << second;
