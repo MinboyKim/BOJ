@@ -1,15 +1,16 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
-string N, M;
+int N, M;
 
 int main() {
   cin.tie(0)->sync_with_stdio(0);
 
   cin >> N >> M;
-  cout << (N == M ? 1 : 0) << "\n";
+
+  cout << ((M <= N) ? ((M == 1 || M == 2) ? "NEWBIE!\n" : "OLDBIE!\n")
+                    : "TLE!\n");
 
   return 0;
 }

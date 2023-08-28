@@ -3,13 +3,16 @@
 
 using namespace std;
 
-string N, M;
+string A, B, C, D;
 
 int main() {
   cin.tie(0)->sync_with_stdio(0);
 
-  cin >> N >> M;
-  cout << (N == M ? 1 : 0) << "\n";
+  cin >> A >> B >> C >> D;
+
+  A += B;
+  C += D;
+  cout << stoll(A) + stoll(C) << "\n";
 
   return 0;
 }

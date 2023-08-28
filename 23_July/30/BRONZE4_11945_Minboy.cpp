@@ -1,15 +1,21 @@
+#include <algorithm>
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-string N, M;
+int N, M;
+string s;
 
 int main() {
   cin.tie(0)->sync_with_stdio(0);
 
   cin >> N >> M;
-  cout << (N == M ? 1 : 0) << "\n";
+  while (N--) {
+    cin >> s;
+    reverse(s.begin(), s.end());
+    cout << s << "\n";
+  }
 
   return 0;
 }
