@@ -13,6 +13,9 @@ int main() {
     int valid = 1;
     int cnt = 35;
 
+    startC=preC;
+    startN=preN;
+
     board[preC][preN] = 1;
 
     while (cnt--) {

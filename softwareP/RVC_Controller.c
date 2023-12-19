@@ -1,12 +1,10 @@
+#include "RVC_Controller.h"
+
 #define ENABLE 1
 #define DISABLE 0
 #define ON 1
 #define OFF 0
 #define DEGREE 45
-
-typedef struct OL {
-  int F, L, R;
-} OL;
 
 void HW_MV_Forward(int isEnable) {
   if (isEnable) {
@@ -137,23 +135,23 @@ int main() {
 
   HW_MV_Forward(ENABLE);
   CLN_CMD(ON);
-  while (1) {
-    obstacle_Location = Det_OL();
-    dust_Existence = Det_DE();
+  //   while (1) {
+  //     obstacle_Location = Det_OL();
+  //     dust_Existence = Det_DE();
 
-    if (obstacle_Location.F) {
-      obstacle_exist(obstacle_Location);
-    }
+  //     if (obstacle_Location.F) {
+  //       obstacle_exist(obstacle_Location);
+  //     }
 
-    if (dust_Existence == 1) {  // Clean Dust, Power Up
-      HW_MV_Forward(DISABLE);
-      Clean_Dust();
-      for (i = 0; i < 5; i++) Wait(500);
-      HW_MV_Forward(ENABLE);
-    }
+  //     if (dust_Existence == 1) {  // Clean Dust, Power Up
+  //       HW_MV_Forward(DISABLE);
+  //       Clean_Dust();
+  //       for (i = 0; i < 5; i++) Wait(500);
+  //       HW_MV_Forward(ENABLE);
+  //     }
 
-    Wait(500);
-  }
+  //     Wait(500);
+  //   }
 
   return 0;
 }
