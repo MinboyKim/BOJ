@@ -5,3 +5,4 @@
 .vscode/
 *.dSYM
 *.DS_Store
+.clang-format
