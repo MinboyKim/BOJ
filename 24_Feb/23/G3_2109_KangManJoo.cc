@@ -12,6 +12,7 @@ vector<pii> v;
 
 bool cmp(pii a, pii b) { return a.second > b.second; }
 
+
 int main() {
     int n;
     cin >> n;
