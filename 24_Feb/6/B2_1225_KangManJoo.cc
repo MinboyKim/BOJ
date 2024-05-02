@@ -2,12 +2,15 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     string a, b;
     long long cnt = 0;
     cin >> a >> b;
-    for (auto i : a) {
-        for (auto j : b) {
+    for (auto i : a)
+    {
+        for (auto j : b)
+        {
             cnt += (i - '0') * (j - '0');
         }
     }
