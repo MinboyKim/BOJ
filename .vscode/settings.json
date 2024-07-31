@@ -43,7 +43,9 @@
         "version": "cpp",
         "unordered_map": "cpp",
         "type_traits": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "list": "cpp",
+        "map": "cpp"
     },
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "xaver.clang-format",
